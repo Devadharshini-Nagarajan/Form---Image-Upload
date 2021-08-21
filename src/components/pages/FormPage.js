@@ -19,7 +19,7 @@ function FormPage() {
 
   const columns = [
     {
-      title: "First name",
+      title: "First Name",
       dataIndex: "firstName",
     },
     {
@@ -40,13 +40,11 @@ function FormPage() {
   ];
 
   const getImageUrl = (record) => {
-    console.log("rr", record[0]?.thumbUrl);
     let value = record.length !== 0 ? record[0].thumbUrl : "";
     return <img src={value} alt="uploaded" className="img-upload" />;
   };
 
   const handleUpload = ({ fileList }) => {
-    console.log(fileList[0]);
     let newFormDetails = {
       ...formDetails,
       fileList: fileList,
