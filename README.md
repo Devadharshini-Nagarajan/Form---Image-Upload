@@ -17,12 +17,6 @@ Welcome to the React Form App with File Upload! This application allows users to
 - **React:** A JavaScript library for building user interfaces.
 - **Ant Design (antd):** A React UI library with a set of high-quality components.
   
-## Installation and Setup
-
-To run the React Form App locally on your machine, follow these steps:
-
-1. Clone the repository to your local machine:
-
 
 ## Available Scripts
 
